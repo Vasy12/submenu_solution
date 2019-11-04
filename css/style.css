@@ -45,8 +45,17 @@ a, a:visited, a:active, a:link, a:hover {
 .submenu {
     display: none;
     position: absolute;
+
+}
+
+.dropDownMenu{
     top: 100%;
     left: 0;
+}
+
+.dropRightMenu{
+    left: 100%;
+    top: 0;
 }
 
 .navItemContainer:hover > .submenu {
